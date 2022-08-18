@@ -154,7 +154,6 @@ class shopee {
                     url: urlShopee,
                     data: dataSend
                 })
-                resolve(dataSend)
                 if(updateStock&&updateStock.status==200) {
                     resolve('success')
                 }else{
